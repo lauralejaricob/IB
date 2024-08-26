@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>IntenationalBooks</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+     <body>
+        <header class="cabeçalho">
+            <div class="container"> 
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Idiomas</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Português</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Espanhol</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Inglês</a>
+                    </li>
+                </ul>
+                <img src="img/surface1.svg" alt="Logo do IntenationalBooks" class="container__imagem">
+                <h1 class="container__titulo"><b class="container__titulo--negrito">International</b>Books</h1>
+            </div>
+
+            <ul class="opções">
+                <input type="checkbox" id="opções-menu" class="opções__botão" />
+                <label for="opções-menu">
+                  <li class="opções__item">Categorias</li>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Idiomas</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Português</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Espanhol</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Inglês</a>
+                    </li>
+                </ul>
+                
+                <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+                <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
+            </ul>
+
+            <div class="container">
+                <a href="#"><img src="img/heart .svg" alt="Favoritar livro" class="container__imagem container__imagem-transparente"></a>
+                <a href="#" class="container__link">
+                    <img src="img/shopping-cart.svg" alt="Carrinho de compras" class="container__imagem">
+                    <p class="container__texto">Minhas compras</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="img/user.svg" alt="Meu perfil" class="container__imagem">
+                    <p class="container__texto">Meu perfil</p>
+                </a>
+            </div>
+
+        </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe a que mundo você vai ir?</h2>
+            <p class="banner__texto">Encontre em nossa loja virtual o teu livro favorito em nossas 3 linguas accessiveis, e conheça um mundo incrivel de fantasia e mais</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será tua seginte leitura?">
+          </section>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Novas novidades</h2>
+            <!-- Slider main container -->
+             <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/capa boulevard.svg" alt="Livro boulevard"></div>
+                    <div class="swiper-slide"><img src="img/capa my life with the walter boys.svg" alt="Livro my life with the walter boys"></div>
+                    <div class="swiper-slide"><img src="img/capa petalos de papel.svg" alt="Livro petalos de papel"></div>
+                    <div class="swiper-slide"><img src="img/capa assistente do vilao.svg" alt="Livro assistente do vilao"></div>
+                    <div class="swiper-slide"><img src="img/capa fourth wing.svg" alt="Livro fourth wing"></div>
+                    <div class="swiper-slide"><img src="img/capa antes de diciembre.svg" alt="Livro antes de diciembre "></div>
+                   </div>
+  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                   </div>
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descricao">
+                    <!-- 1º coluna -->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Box Meses a tu lado (Spanish Edition)</h2>
+                        <p class="descricao__texto">Uma história de amor e paixão com contagem regressiva. Descubra a história de Jenn e Jack no box de luxo da saga Meses a seu lado, de Joana Marcús, a autora que conquistou mais de 1.000.000 de leitores.</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/box saga meses a tu lado.svg" class="descricao__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                 <div class="card__botoes">
+                    <!-- 1º coluna -->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="img/heart .svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="img/shopping-cart.svg" alt="Adicionar no Carrinhode compras"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                     <a href="#" class="botoes__ancora">Saiba mais</a>
+                 </div>
+            </div>
+        </section>
+  
+         <section class="carrossel">
+            <h2 class="carrossel__titulo">Livros mais vendidos</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/capa imperfeitos.svg" alt="Livro imperfeitos"></div>
+                    <div class="swiper-slide"><img src="img/capa people we meet on vacation.svg" alt="Livro people we meet on vacation"></div>
+                    <div class="swiper-slide"><img src="img/capa cuando no queden mas estrellas que contar.svg" alt="Livro cuando no queden mas estrellas que contar"></div>
+                    <div class="swiper-slide"><img src="img/capa a biblioteca da meia noite.svg" alt="Livro a biblioteca da meia noite"></div>
+                    <div class="swiper-slide"><img src="img/capa this time tomorrow.svg" alt="Livro this time tomorrow"></div>
+                    <div class="swiper-slide"><img src="img/capa uno siempre cambia al amor de su vida.svg" alt="Livro uno siempre cambia al amor de su vida"></div>
+                   </div>
+  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                   </div>
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descricao">
+                    <!-- 1º coluna -->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você já ouviu do...</h3>
+                        <h2 class="descricao__titulo-livro">Box Corte De Espinhos E Rosas 4 Volumes</h2>
+                        <p class="descricao__texto">Ela roubou uma vida. Agora deve pagar com o coração. Em Corte de espinhos e rosas, livro que da início a uma das séries mais queridas pelo público, acompanhe as aventuras de Feyre pelo perigoso e deslumbrante mundo das fadas.</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/box corte de espinhos e rosas.svg" class="descricao__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                 <div class="card__botoes">
+                    <!-- 1º coluna -->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="img/heart .svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="img/shopping-cart.svg" alt="Adicionar no Carrinhode compras"></li>
+                    </ul>
+                    <!-- 2º coluna -->
+                     <a href="#" class="botoes__ancora">Saiba mais</a>
+                 </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="categorias">
+            <h2 class="categorias__titulo">Categorias recomendadas</h2>
+            <ul class="categorias__lista">
+                <li class="categorias__item">
+                    <a href="#" class="categorias__link">Romance</a>
+                </li>
+                <li class="categorias__item">
+                    <a href="#" class="categorias__link">Fantasia</a>
+                </li>
+                <li class="categorias__item">
+                    <a href="#" class="categorias__link">Terror</a>
+                </li>
+                <li class="categorias__item">
+                    <a href="#" class="categorias__link">Fição</a>
+                </li>
+                <li class="categorias__item">
+                    <a href="#" class="categorias__link">Autoajuda</a>
+                </li>
+                <li class="categorias__item">
+                    <a href="#" class="categorias__link">Juvenil</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <div class="contato__descrição">
+                <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+                <p class="contato__texto">Atualizações de novos livros, novos kits, promoções e outros.</p>
+            </div>
+            <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+        </section>
+        <hr/>
+
+        <footer class="rodapé">
+            <h2 class="rodapé__titulo">Grupo IntenationalBooks</h2>
+            <ul class="lista-rodapé">
+                <li class="lista-rodapé__titulo">Redes sociais</li>
+                <li class="lista-rodapé__item">
+                    <img src="img/tiktok 1.svg" alt="logo tiktok">
+                    <a href="#" class="lista-rodapé__link">International@Books</a>
+                </li>
+                <li class="lista-rodapé__item">
+                    <img src="img/logo-instagram-png-fundo-transparente2 1.svg" alt="logo instagram">
+                    <a href="#" class="lista-rodapé__link">International@Books</a>
+                </li>
+                <li class="lista-rodapé__item">
+                    <img src="img/discordia 1.svg" alt="logo discord">
+                    <a href="#" class="lista-rodapé__link">International@Books</a>
+                </li>
+              </ul>
+
+              <ul class="lista-rodapé">
+                <li class="lista-rodapé__titulo">Comunidade</li>
+                <li class="lista-rodapé__item">
+                    <img src="img/png-clipart-red-and-white-flag-flag-of-spain-iberian-peninsula-computer-icons-spanish-free-spain-flag-svg-miscellaneous-english-thumbnail-removebg-preview 1.svg" alt="bandeira espanha">
+                    <a href="#" class="lista-rodapé__link">Books-spanish</a>
+                </li>
+                <li class="lista-rodapé__item">
+                    <img src="img/png-clipart-flag-of-brazil-graphy-national-flag-flag-miscellaneous-flag-removebg-preview 1.svg" alt="bandeira brazil">
+                    <a href="#" class="lista-rodapé__link">Books-portuguese</a>
+                </li>
+                <li class="lista-rodapé__item">
+                    <img src="img/png-clipart-english-second-language-foreign-language-spanish-others-english-flag-removebg-preview 1.svg" alt="bandeira inglaterra">
+                    <a href="#" class="lista-rodapé__link">Books-english</a>
+                </li>
+              </ul>
+
+              <ul class="lista-rodapé">
+                <li class="lista-rodapé__titulo">Entre em contato</li>
+                <li class="lista-rodapé__item">
+                    <img src="img/whatsapp 1.svg" alt="whatsapp">
+                    <a href="#" class="lista-rodapé__link">41988598407</a>
+                </li>
+              </ul>
+        </footer>
+
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "bullets",}
+            });
+          </script>
+    </body>
+</html>
